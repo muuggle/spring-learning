@@ -54,4 +54,7 @@ public class User {
         return String.format("User[id=%s, email=%s, name=%s, password=%s]", this.id, this.email, this.name,
                 this.password);
     }
+
+    public void setCreatedAt(long currentTimeMillis) {
+    }
 }
